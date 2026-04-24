@@ -70,7 +70,7 @@
                 <div class="col-md-6 col-lg-6 col-xl-3">
                     <div class="footer-item d-flex flex-column">
                         <h4 class="text-primary mb-4">Customer Service</h4>
-                        <a href="#" class=""><i class="fas fa-angle-right me-2"></i> Contact Us</a>
+                        <a href="{{ route('contact') }}" class=""><i class="fas fa-angle-right me-2"></i> Contact Us</a> 
                         <a href="#" class=""><i class="fas fa-angle-right me-2"></i> Returns</a>
                         <a href="#" class=""><i class="fas fa-angle-right me-2"></i> Order History</a>
                         <a href="#" class=""><i class="fas fa-angle-right me-2"></i> Site Map</a>
@@ -118,14 +118,12 @@
                                 class="fas fa-copyright text-light me-2"></i>Your Site Name</a>, All right
                         reserved.</span>
                 </div>
-                <div class="col-md-6 text-center text-md-end text-white">
+                <!-- <div class="col-md-6 text-center text-md-end text-white">
 
-                    <!--/*** This template is free as long as you keep the below author’s credit link/attribution link/backlink. ***/-->
-                    <!--/*** If you'd like to use the template without the below author’s credit link/attribution link/backlink, ***/-->
-                    <!--/*** you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". ***/-->
+                   
                     Designed By <a class="border-bottom text-white" href="https://htmlcodex.com">HTML Codex</a>.
                     Distributed By <a class="border-bottom text-white" href="https://themewagon.com">ThemeWagon</a>
-                </div>
+                </div> -->
             </div>
         </div>
     </div>

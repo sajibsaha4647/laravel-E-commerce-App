@@ -166,20 +166,20 @@
                     </button>
                     <div class="collapse navbar-collapse" id="navbarCollapse">
                         <div class="navbar-nav ms-auto py-0">
-                            <a href="index.html" class="nav-item nav-link">Home</a>
-                            <a href="shop.html" class="nav-item nav-link">Shop</a>
-                            <a href="single.html" class="nav-item nav-link">Single Page</a>
-                            <div class="nav-item dropdown">
+                            <a href="{{ route('home') }}" class="nav-item nav-link">Home</a>
+                            <a href="{{ route('shop') }}" class="nav-item nav-link">Shop</a>
+                            <!-- <a href="{{ route('product.show', 1) }}" class="nav-item nav-link">Single Page</a> -->
+                            <!-- <div class="nav-item dropdown">
                                 <a href="#" class="nav-link active" data-bs-toggle="dropdown"><span
                                         class="dropdown-toggle">Pages</span></a>
                                 <div class="dropdown-menu m-0">
-                                    <a href="bestseller.html" class="dropdown-item">Bestseller</a>
-                                    <a href="cart.html" class="dropdown-item">Cart Page</a>
-                                    <a href="cheackout.html" class="dropdown-item">Cheackout</a>
-                                    <a href="404.html" class="dropdown-item active">404 Page</a>
+                                    <a href="{{ route('bestsellers') }}" class="dropdown-item">Bestseller</a>
+                                    <a href="{{ route('cart') }}" class="dropdown-item">Cart Page</a>
+                                    <a href="{{ route('checkout') }}" class="dropdown-item">Checkout</a>
+                                    <a href="{{ route('404') }}" class="dropdown-item active">404 Page</a>
                                 </div>
-                            </div>
-                            <a href="contact.html" class="nav-item nav-link me-2">Contact</a>
+                            </div> -->
+                            <a href="{{ route('contact') }}" class="nav-item nav-link me-2">Contact</a>
                             <div class="nav-item dropdown d-block d-lg-none mb-3">
                                 <a href="#" class="nav-link" data-bs-toggle="dropdown"><span class="dropdown-toggle">All
                                         Category</span></a>
