@@ -3,33 +3,33 @@
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-    return view('home');
+    return view('frontend.home');
 })->name('home');
 
 Route::get('/404', function () {
-    return view('404');
+    return view('frontend.404');
 })->name('404');
 
 Route::get('/bestsellers', function () {
-    return view('bestseller');
+    return view('frontend.bestseller');
 })->name('bestsellers');
 
 Route::get('/cart', function () {
-    return view('cart');
+    return view('frontend.cart');
 })->name('cart');
 
 Route::get('/checkout', function () {
-    return view('checkout');
+    return view('frontend.checkout');
 })->name('checkout');
 
 Route::get('/contact', function () {
-    return view('contact');
+    return view('frontend.contact');
 })->name('contact');
 
 Route::get('/shop', function () {
-    return view('shop');
+    return view('frontend.shop');
 })->name('shop');
 
 Route::get('/product/{id}', function ($id) {
-    return view('single', ['id' => $id]);
+    return view('frontend.productDetails', ['id' => $id]);
 })->name('product.show');
